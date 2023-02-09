@@ -29,11 +29,6 @@
   margin-top: 20px;
   padding-right: 30px;
 }
-@media (max-width: 467px) {
-  .nav__item {
-    display: none;
-  }
-}
 .nav__item:hover {
   color: #FF6464;
 }
@@ -56,6 +51,9 @@
   }
   .nav__menu.active {
     top: 0;
+  } 
+  .nav__item {
+    display: none;
   }
   .nav__burger {
     display: block;
